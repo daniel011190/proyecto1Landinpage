@@ -764,6 +764,12 @@ header label:hover{
         margin-bottom: 30px;
     }
 
+
+    .container-adicional{
+       
+        width: 100%;
+    }
+
     .adicional-izq{
         width: 70%;
         margin-bottom: 20px;
