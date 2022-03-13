@@ -1,2 +1,2 @@
 # proyecto1Landingpage
-Pagina web de una cafeteria
+Pagina web donde se ofertan productos de una cafeteria.
