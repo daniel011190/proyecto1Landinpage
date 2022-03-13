@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     font-size: 14px;
+    width: 100%;
     
 }
 
@@ -73,23 +74,24 @@ body{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 .jumbo-izq{
     flex-wrap: wrap;
    /* border: 1px solid red;*/
     width: 40%;
     text-align: center; 
-    height: 250px; 
+    height: 200px; 
 }
 .jumbo-izq h1{
     font-size: 45px;
-    color: #523932;
+    color: #5a453f;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 2px 2px 2px #0080ff;
+    text-shadow: 2px 2px 2px #caaa19;
 }
 .jumbo-izq h2{
-  color: #581883;
+  color: #6c6c6d;
   font-weight: bold;
 }
 
@@ -102,7 +104,9 @@ body{
 .jumbo-der{
     flex-wrap: wrap;
     /*border: 1px solid red;*/
-    width: 50%;
+    width: 40%;
+    height: 400px;
+
 }
 .jumbo-der img{
     width: 100%;
@@ -115,11 +119,11 @@ body{
 /*BLOG*/
 .container-blog{
    
-    margin-top: 350px;
+    margin-top: 200px;
     width: 100%;
     justify-content: space-around;
     display: flex;
-    margin-bottom: 350px;
+    margin-bottom: 250px;
     background-color: rgb(145, 127, 127);
     flex-wrap: wrap;
     padding-top: 25px;
@@ -129,7 +133,7 @@ body{
 .container-blog  img{
 
     width: 100%;
-    height: 250px;
+    height: 100%;
     margin: 0px;
     padding: 0px;
     align-content: center;
@@ -141,7 +145,7 @@ body{
 
 .blog1{
     position: relative;
-    height: 280px;
+    height: 250px;
     width: 25%;
     flex-wrap: wrap;
     overflow: hidden;
@@ -203,7 +207,7 @@ body{
 /*BLOG 2*/
 .blog2{
     position: relative;
-    height: 280px;
+    height: 250px;
     width: 25%;
     flex-wrap: wrap;
     display: flex;
@@ -263,7 +267,7 @@ body{
 /*BLOG 3*/
 .blog3{
     position: relative;
-    height: 280px;
+    height: 250px;
     width: 25%;
     flex-wrap: wrap;
     overflow: hidden;
@@ -323,15 +327,16 @@ body{
 
 /*ADICIONAL*/
 .container-adicional{
-    margin-top: 250px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
     flex-wrap: wrap;
     background-color: rgb(114, 95, 95);
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
 }
 .adicional-izq{
     flex-wrap: wrap;
@@ -357,7 +362,7 @@ body{
     color: white;
 }
 .adicional-der h1{
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     
 }
@@ -369,7 +374,7 @@ body{
 
 /*FOOTER*/
 .container-footer{
-    width: 97%;
+    width: 100%;
     height: 80%;
     margin: 0px;
     padding: 0px;
@@ -382,7 +387,6 @@ body{
     /*border: 1px solid red;*/
     align-items: flex stretch;
     flex-wrap: wrap;
-
 }
 
 .col1{
@@ -529,12 +533,15 @@ body{
 /*PRODUCTOS*/
 
 #titulo_productos{
-    color: #444;
+    
     text-align: center;
     margin-top: 20px;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 2px 2px 2px #0080ff;
+    color: #5a453f;
+    text-shadow: 2px 2px 2px #caaa19;
+
+
 }
 
 
@@ -544,6 +551,7 @@ body{
     grid-auto-rows: 150px;
     padding: 20px;
     grid-gap: 10px;
+    margin: 40px;
 }
 .gallery-img{
     width: 100%;
@@ -784,11 +792,12 @@ body{
     .jumbo-izq{
         
         width: 80%;
-        height: 50%;
+        height: 40%;
     }
       
     .jumbo-der{
-        width: 80%;
+        width: 70%;
+        height: 40%;
         margin-bottom: 1px;
     }
 
@@ -796,25 +805,38 @@ body{
          width: 100%;
      }
      .blog1{
-         width: 55%;
-         margin-bottom: 30px;
+        width: 55%;
+        height: 190px;
+        margin-bottom: 30px;
      }
      .blog2{
         width: 55%;
+        height: 190px;
         margin-bottom: 30px;
     }
     .blog3{
         width: 55%;
+        height: 190px;
         margin-bottom: 30px;
     }
 
     .adicional-izq{
-        width: 80%;
+        width: 70%;
         margin-bottom: 20px;
-     }
+    }
      .adicional-der{
-         width: 35%;
-      }
+        width: 35%;
+    }
+      .adicional-der h1{
+        font-size: 25px;
+        text-align: center;
+        
+    }
+      .adicional-der ul{
+            font-size: 15px;
+            text-align: left;
+    }
+
       .col1{
           width: 100%;
           margin-bottom: 30px;
