@@ -557,11 +557,12 @@ header label:hover{
 #titulo_productos{
     
     text-align: center;
-    margin-top: 20px;
+    margin-top: 100px;
     text-align: center;
     text-transform: uppercase;
     color: #5a453f;
     text-shadow: 2px 2px 2px #caaa19;
+
 
 
 }
@@ -573,7 +574,8 @@ header label:hover{
     grid-auto-rows: 150px;
     padding: 20px;
     grid-gap: 10px;
-    margin: 40px;
+    margin: 80px 40px 20px 40px;
+
 }
 .gallery-img{
     width: 100%;
@@ -581,7 +583,7 @@ header label:hover{
     object-fit: cover; /*ocupa el ancho pero no se distorciona*/
 }
 .gallery-item{
-    position: relative;
+    position:relative;
 }
 
 .gallery-title{
@@ -633,10 +635,15 @@ header label:hover{
 }
 
 @media (max-width:950px){
+    
+    #titulo_productos{
+        margin-top: 100px;
+    }
     .gallery-container{
         grid-template-columns: repeat(4,1fr);
         width: 90%;
-        margin: auto ;
+        
+        margin: 80px 40px 20px 40px;
     }
     .gallery-item:nth-child(1){
         grid-column-start: span 1;
@@ -678,10 +685,16 @@ header label:hover{
 }
 
 @media (max-width:750px){
+    
+    #titulo_productos{
+        margin-top: 100px;
+    }
+    
+    
     .gallery-container{
         grid-template-columns: repeat(3,1fr);
         width: 90%;
-        margin: auto ;
+        margin: 80px 40px 20px 40px;
     }
     .gallery-item:nth-child(1){
         grid-column-start: span 1;
@@ -722,10 +735,16 @@ header label:hover{
 }
 
 @media (max-width:450px){
+    
+    #titulo_productos{
+        margin-top: 100px;
+    }
+    
+    
     .gallery-container{
         grid-template-columns: repeat(2,1fr);
         width: 90%;
-        margin: auto ;
+        margin: 80px 40px 20px 40px;
     }
     .gallery-item:nth-child(1){
         grid-column-start: span 1;
@@ -766,10 +785,14 @@ header label:hover{
 }
 
 @media (max-width:350px){
+
+    #titulo_productos{
+        margin-top: 100px;
+    }
     .gallery-container{
         grid-template-columns: repeat(1,1fr);
         width: 80%;
-        margin: auto ;
+        margin: 80px 40px 20px 40px;
     }
     .gallery-item:nth-child(1){
         grid-column-start: span 1;
