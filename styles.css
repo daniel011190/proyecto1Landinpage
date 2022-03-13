@@ -904,4 +904,15 @@ header label:hover{
         margin-bottom: 30px;
      }
 
+     #titulo_productos{
+        margin-top: 100px;
+    }
+    
+    
+    .gallery-container{
+        grid-template-columns: repeat(3,1fr);
+        width: 90%;
+        margin: 80px 40px 20px 40px;
+    }
+
 }
